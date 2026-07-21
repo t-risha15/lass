@@ -1,0 +1,13 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    width:100px;
+}
+product-card{
+    width:350px;;
+    border:2px;
+    padding:20px;
+    background-color:white;
+    border-radius:10px;
+}

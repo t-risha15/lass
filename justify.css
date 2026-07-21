@@ -1,0 +1,17 @@
+*{
+    margin:auto;
+    padding:auto;
+    border-radius: 0cap;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: aqua;
+    padding:15px;
+}
+.logo{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}

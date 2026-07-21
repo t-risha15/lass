@@ -1,0 +1,53 @@
+
+body{
+    background: color #222;
+    color: white;
+    font-family: Arial,sans-serif;
+}
+h1{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px
+}
+Div:nth-of-type(1) {
+    background-color:red;
+}
+div:nth-of-type(2){
+    background-color:blue
+}
+div:nth-of-type(3){
+    background-color:green;
+}
+#me{
+    background-color: yellow;
+}
+.heading{
+    background-color: antiquewhite;
+    padding:20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card{
+    width: 300px;
+}
+h1{
+    font-family: open+sans;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+     border-bottom: 0cap;}
+     .card{
+        width:30px;
+        background-color:black;
+        padding:16px;
+        border: radius 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0.2);
+     }
+     button{
+        padding: 10px 16px;
+        border:0cap;
+        border-radius: 5px;
+        cursor:pointer;
+     }

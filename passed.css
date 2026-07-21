@@ -1,0 +1,19 @@
+.grid-container{
+    display:grid;
+    grid-container-columns: 1fr;
+    gap: 16px;
+    padding: 16px;
+}
+@media (min-width: 768px) {
+    .grid-container{
+        grid-templates-columns: repeat(2,1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .grid-container{
+        grid-container-columns: repeat(3,1fr);
+    }
+}
+.grid-items{
+    background-color: #f0f0f0;
+}

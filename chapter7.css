@@ -1,0 +1,20 @@
+.button{
+    background: #3b82f6;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition:background 0.3s ease;
+    transition: background 0.3s ease, transform 0.2s ease; /* multiple */
+}
+.button:hover {
+    background: #1d4ed8; /* this change will be animated */
+    transform: translateY(-2px); /* lift effect */
+}
+transition-timing-function:ease /* slow-fast-slow (default) */
+transition-timing-function:ease /* slow start */
+transition-timing-function:ease-out /* slow end */
+transition-timing-function:ease-in-out /* slow start and end */
+transition-timing-function:Linear /* constant speed */
+transition-timing-function:cubic-bezier(0.4 0 0.2 1) /* custom */
